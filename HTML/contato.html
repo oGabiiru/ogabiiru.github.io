@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="/CSS/contato.css">
+</head>
+
+<header>
+    <nav id="princ">
+        <ul id="rodpe">
+            <li><a href="index.html">Sobre</a></li>
+        </ul>
+    </nav>    
+</header>
+
+
+<body>
+  <div class="container">
+    <h1>Entre em contato</h1>
+    <div id="info">
+        <h2 class="name">Gabriel Gomes Santos Ribeiro</h2>
+    </div>
+
+    <form
+    action="https://formsubmit.co/devgabiru@gmail.com"
+    method="POST"
+    class="form"
+  >
+    <label for="name">Nome</label>
+    <input type="text" name="name" id="name" required />
+    
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email" required />
+    
+    <label for="message">Mensagem</label>
+    <textarea name="message" id="message" required></textarea>
+    
+    <input type="hidden" name="_captcha" value="false" />
+    
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/HTML/obrigado.html"/>
+
+    <button type="submit">Enviar</button>
+  </form>
+  </div>
+</body>
+<footer>
+    <div class="container">
+      <p>&copy; 2024 GGSR. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+
+</html>

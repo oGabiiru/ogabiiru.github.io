@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4c4c4c;
+    color: #fff;  
+  }
+  
+  header {
+    background-color: #007e5f;
+    color: #fff;
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: bolder;
+    text-align:center;
+  }
+  .nome{
+    color: #41e2ba;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #info {
+    text-align: center;
+  }
+  
+  #mf {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  h1, h2, h3, h4 {
+    margin: 0;
+  }
+
+  .tit{
+    color:#41e2ba;
+    font-size: 20px;
+  }
+  
+  p {
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  
+  .exp {
+    text-decoration: overline;
+  }
+
+
+.container-footer {
+    background-color: #4c4c4c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    float:inline-end;
+  }
+
+  a:link {
+    color: white;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: rgb(255, 255, 255);
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: #00c291;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: blue;
+ }
+  
+ .idioma-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.idioma-options {
+  display: none;
+  position: absolute;
+  background-color: #007e5f;
+  min-width: 110px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  border-radius: 1px;
+  text-align: left;
+}
+
+.idioma-wrapper:hover .idioma-options {
+  display: block;
+}
+
+.idioma-options a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+#conteudo-pt {
+  display: none;
+}  
+  a:hover {
+    color: #00c291;
+}
+
+#conteudo-en {
+  display: block;
+}
+a:hover {
+  color: #00c291;
+}
+
+#Lkd {
+  width: 48px;
+  height: 48px;
+}
+
+.container-esquerda {
+    text-align: left;
+    padding: 20px;
+    background-color: #007e5f;
+    color: #fff;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+} 
+
